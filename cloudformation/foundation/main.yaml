@@ -27,6 +27,11 @@ Parameters:
     Description: Public Domain Name for sites and services created by this stack.
     Type: String
 
+  EmailAddress:
+    Description: Email address to send notifications to
+    Type: String
+    Default: ""
+
   Region:
     Description: AWS Region
     Type: String
